@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Pet Breeds</string>
+    <string name="search">Search</string>
+
+    <string name="name_cat">Cat</string>
+    <string name="name_dog">Dog</string>
+    <string name="name_sheep">Sheep</string>
+    <string name="name_rabbit">Rabit</string>
+    <string name="name_parrot">Parrot</string>
+    <string name="name_fish">Fish</string>
+    <string name="name_horse">Horse</string>
+    <string name="name_rat">Rat</string>
+
+    <string-array name="cat">
+        <item>Siamese cat</item>
+        <item>British Shorthair</item>
+        <item>Maine Coon</item>
+        <item>Persian cat</item>
+        <item>Ragdoll</item>
+        <item>Sphynx cat</item>
+        <item>American Shorthair</item>
+        <item>Abyssinian</item>
+        <item>Exotic Shorthair</item>
+        <item>Scottish Fold</item>
+        <item>Burmese cat</item>
+        <item>Birman</item>
+        <item>Bombay cat</item>
+        <item>Siberian cat</item>
+        <item>American Curl</item>
+        <item>Munchkin cat</item>
+        <item>Russian Blue</item>
+        <item>Devon Rex</item>
+
+    </string-array>
+
+    <string-array name="dog">
+        <item>German Shepherd</item>
+        <item>Bulldog</item>
+        <item>Labrador Retriever</item>
+        <item>Golden Retriever</item>
+        <item>French Bulldog</item>
+        <item>Siberian Husky</item>
+        <item>Alaskan Malamute</item>
+        <item>Poodle</item>
+        <item>Chihuahua</item>
+        <item>Border Collie</item>
+        <item>Afghan Hound</item>
+        <item>Dachshund</item>
+        <item>Airedale Terrier</item>
+        <item>Affenpinscher</item>
+        <item>Rottweiler</item>
+        <item>Bichon Frisé</item>
+        <item>American Eskimo Dog</item>
+        <item>Chow Chow</item>
+    </string-array>
+
+    <string-array name="sheep">
+        <item>Dorper</item>
+        <item>Valais Blacknose</item>
+        <item>Merino</item>
+        <item>Suffolk sheep</item>
+        <item>Texel sheep</item>
+        <item>Awassi</item>
+        <item>Cameroon sheep</item>
+        <item>Priangan sheep</item>
+        <item>Ouessant sheep</item>
+        <item>Hampshire Down</item>
+        <item>Dorset Horn</item>
+        <item>Ladoum</item>
+        <item>Herdwick</item>
+
+    </string-array>
+
+    <string-array name="rabbit">
+        <item>American Fuzzy Lop</item>
+        <item>Lionhead rabbit</item>
+        <item>Rex rabbit</item>
+        <item>Holland Lop</item>
+        <item>Angora rabbit</item>
+        <item>Cashmere Lop</item>
+        <item>Mini Lop</item>
+        <item>Mini Rex</item>
+        <item>Californian rabbit</item>
+        <item>English Lop</item>
+        <item>Polish rabbit</item>
+        <item>Dutch rabbit</item>
+        <item>French Lop</item>
+    </string-array>
+
+    <string-array name="parrot">
+        <item>African Grey Parrots</item>
+        <item>Cockatoos</item>
+        <item>Macaws</item>
+        <item>Parrotlet</item>
+        <item>Cockatiel</item>
+        <item>Senegal Parrot</item>
+        <item>Parakeets</item>
+        <item>Eclectus Parrots</item>
+    </string-array>
+
+
+    <string-array name="fish">
+        <item>Siamese Fighting Fish</item>
+        <item>Common Carp</item>
+        <item>Goldfish</item>
+        <item>Oscar</item>
+        <item>Wels Catfish</item>
+        <item>Zander</item>
+        <item>European</item>
+        <item>Northern Pike</item>
+        <item>Shark</item>
+        <item>Dolphin</item>
+    </string-array>
+
+    <string-array name="horse">
+        <item>Arabian horse</item>
+        <item>Friesian horse</item>
+        <item>Thoroughbred</item>
+        <item>Shire horse</item>
+        <item>Appaloosa</item>
+        <item>American Quarter</item>
+        <item>Clydesdale</item>
+        <item>Galineers Cob</item>
+        <item>Dutch Warmblood</item>
+        <item>Akhal-Teke</item>
+        <item>Haflinger</item>
+        <item>Percheron</item>
+        <item>Breton horse</item>
+    </string-array>
+
+    <string-array name="rat">
+        <item>Standard Rat</item>
+        <item>Rex</item>
+        <item>Manx</item>
+        <item>Sphynx</item>
+        <item>Satin</item>
+        <item>Dumbo</item>
+        <item>Bristle Coat</item>
+        <item>Topaz</item>
+        <item>Cinnamon Peal</item>
+    </string-array>
+</resources>
