@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace 'com.android.petsdetails'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.android.petsdetails"
@@ -47,4 +47,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
+    implementation 'de.raphaelebner:roomdatabasebackup:1.0.0-beta13'
+
 }
