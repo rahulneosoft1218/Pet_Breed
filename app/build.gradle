@@ -5,6 +5,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('D:\\Projects\\Assignment\\PetsDetails\\Pet_Breed\\cert\\testKey.jks')
+            storePassword 'testKey'
+            keyAlias 'key0'
+            keyPassword 'testKey'
+        }
+    }
     namespace 'com.android.petsdetails'
     buildToolsVersion "30.0.3"
     compileSdk 34
@@ -23,6 +31,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
