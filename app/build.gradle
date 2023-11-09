@@ -7,7 +7,7 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('D:\\Projects\\Assignment\\PetsDetails\\Pet_Breed\\cert\\testKey.jks')
+            storeFile file('cert\\testKey.jks')
             storePassword 'testKey'
             keyAlias 'key0'
             keyPassword 'testKey'
@@ -15,7 +15,7 @@ android {
     }
     namespace 'com.android.petsdetails'
     buildToolsVersion "30.0.3"
-    compileSdk 34
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.android.petsdetails"
