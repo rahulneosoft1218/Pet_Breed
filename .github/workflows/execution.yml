@@ -25,10 +25,10 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-build_job:
-  stage: build
-  script:
-    - ./gradlew clean assembleRelease
-  artifacts:
-    paths:
-      - app/build/outputs/
+      build:
+        stage: build
+        script:
+          - ./gradlew assembleRelease
+        artifacts:
+          paths:
+            - app/build/outputs/apk/release/app-release.apk
