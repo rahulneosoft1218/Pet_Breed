@@ -24,3 +24,11 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+
+build_job:
+  stage: build
+  script:
+    - ./gradlew clean assembleRelease
+  artifacts:
+    paths:
+      - app/build/outputs/
